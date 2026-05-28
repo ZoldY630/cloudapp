@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <service>
+    <name>Виртуальная машина (2 vCPU / 4 GB RAM)</name>
+    <category>Вычисления</category>
+    <price_month>2800</price_month>
+    <description>Выделенная ВМ на базе KVM, SSD-диски, гарантированные ресурсы</description>
+  </service>
+  <service>
+    <name>Cloud Storage (S3-совместимое хранилище)</name>
+    <category>Хранилище</category>
+    <price_month>150</price_month>
+    <description>Объектное хранилище, совместимое с AWS S3, за 1 ТБ в месяц</description>
+  </service>
+  <service>
+    <name>Managed PostgreSQL</name>
+    <category>Базы данных</category>
+    <price_month>3500</price_month>
+    <description>Управляемая СУБД PostgreSQL с автоматическим бэкапом и репликацией</description>
+  </service>
+  <service>
+    <name>Kubernetes Cluster (K8s)</name>
+    <category>Оркестрация</category>
+    <price_month>5200</price_month>
+    <description>Управляемый кластер Kubernetes, автомасштабирование узлов</description>
+  </service>
+  <service>
+    <name>CDN (доставка контента)</name>
+    <category>Сеть</category>
+    <price_month>800</price_month>
+    <description>Глобальная сеть доставки контента, 100+ точек присутствия</description>
+  </service>
+  <service>
+    <name>Managed Redis</name>
+    <category>Кэш</category>
+    <price_month>1900</price_month>
+    <description>Управляемый Redis Cluster с поддержкой Sentinel и Cluster mode</description>
+  </service>
+  <service>
+    <name>Балансировщик нагрузки (Load Balancer)</name>
+    <category>Сеть</category>
+    <price_month>600</price_month>
+    <description>L4/L7 балансировщик с SSL-терминацией и health-checks</description>
+  </service>
+</catalog>
